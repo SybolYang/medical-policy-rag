@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# 密钥（绝不进 git）
+.env
+
+# 生成产物：向量索引 / 切分缓存
+*.faiss
+*.index
+*.pkl
+data/processed/*
+!data/processed/.gitkeep
